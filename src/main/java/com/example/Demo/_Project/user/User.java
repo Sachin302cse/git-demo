@@ -3,9 +3,10 @@ package com.example.Demo._Project.user;
 public class User {
 
     private int id;
-    private String userName;
+    private String name;
     private String password;
     private String email;
+
 
     public String getEmail() {
         return email;
@@ -27,15 +28,15 @@ public class User {
         return password;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
